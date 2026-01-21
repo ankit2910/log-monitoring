@@ -1,6 +1,6 @@
 {
     "error_keywords": ["ERROR", "Exception", "Failed"],
     "warning_keywords": ["WARN", "Timeout"],
-    "critical_threshold": 1,
+    "critical_threshold": 3,
     "warning_threshold": 5
 }
