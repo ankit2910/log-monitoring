@@ -1,0 +1,4 @@
+2024-01-10 10:00:01 INFO Application started
+2024-01-10 10:00:10 INFO Processing request
+2024-01-10 10:00:15 WARN Response time high
+2024-01-10 10:00:20 ERROR Failed to process request
