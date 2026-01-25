@@ -28,3 +28,9 @@ jobs:
       - name: Run log monitoring system
         run: |
           python run_analysis.py
+
+      - name: Build and run log monitoring container
+        run: |
+          docker build -t log-monitoring .
+          docker run log-monitoring
+
