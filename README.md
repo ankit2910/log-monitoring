@@ -7,6 +7,9 @@ early in the delivery lifecycle.
 The system is integrated with CI/CD and automatically fails the pipeline when critical error
 thresholds are exceeded.
 
+The log monitoring system is containerized using Docker to ensure consistent
+execution across different environments.
+
 ---
 
 ## Overview
@@ -30,4 +33,11 @@ This project automates log analysis by:
 3. Logs are analyzed for errors and warnings
 4. A consolidated report is generated per service
 5. The pipeline fails if critical thresholds are exceeded
+
+---
+
+## Build the Docker image
+```bash
+docker build -t log-monitoring .
+docker run log-monitoring
 
